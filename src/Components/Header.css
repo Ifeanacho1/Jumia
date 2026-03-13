@@ -1,0 +1,193 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: #aa7cd6;
+    display: flex;
+    justify-content: center;
+
+    .HeaderImg{
+        width: 85%;
+        height: 10vh;
+        display: flex;
+    }
+}
+
+article{
+    width: 100%;
+    height: 5vh;
+    background-color: aliceblue;
+}
+
+aside{
+    width: 100%;
+    height: 11vh;
+    display: flex;
+
+    .Jumdiv{
+        width: 25%;
+        height: 11vh;
+        display: flex;
+        justify-content: center;
+
+        .Jumimg{
+            width: 40%;
+        }
+    }
+
+    .Searchdiv{
+        width: 45%;
+        height: 11vh;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        input{
+            width: 90%;
+            height: 55%;
+            border-radius: 5px;
+            border-color: lightgray;
+        }
+
+        .Searchbtn{
+            width: 12%;
+            height: 55%;
+            color: white;
+            font-weight: bolder;
+            background-color: orange;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+
+    .Accountdiv{
+        width: 30%;
+        height: 11vh;
+        display: flex;
+        align-items: center;
+
+        .Accountimg{
+            width: 25px;
+            margin-left: 20px;
+            margin-right: 5px;
+        }
+
+        h1{
+            font-size: 20px;
+            margin-right: 25px;
+        }
+
+        .Helpimg{
+            width: 45px;
+        }
+
+        h2{
+            font-size: 20px;
+            margin-right: 25px;
+        }
+
+        .Cartimg{
+            width: 25px;
+            margin-right: 5px;
+        }
+
+        h3{
+            font-size: 20px;
+        }
+    }
+}
+
+main{
+    width: 100%;
+    height: 74vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://downloadr2.apkmirror.com/wp-content/uploads/2024/02/77/65e035d437325_com.jumia.android.png");
+
+    .MainLeft{
+        width: 22%;
+        height: 65vh;
+        display: flex;
+        justify-content: flex-end;
+
+        .Appliances{
+            margin-top: 15px;
+            width: 65%;
+            height: 94%;
+            background-color: white;
+            list-style: none;
+        }
+    }
+
+    .MainCenter{
+        width: 56%;
+        height: 65vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .LeftSection{
+            width: 2%;
+            height: 100%;   
+            display: flex; 
+            justify-content: flex-start; 
+            align-items: center;
+            
+            .Leftbtn{
+                width: 15px;
+                height: 50px;
+                background-color: transparent;
+                border: none;
+            }
+        }
+
+        .CenterSection{
+            width: 96%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .Proimg{
+                width: 100%;
+            }
+        }
+
+        .RightSection{
+            width: 2%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            
+            .Rightbtn{
+                width: 15px;
+                height: 50px;
+                background-color: transparent;
+                border: none;
+            }
+        }
+    }
+
+    .MainRight{
+        width: 22%;
+        height: 65vh;
+
+        .Call{
+            margin-top: 15px;
+            width: 65%;
+            height: 43%;
+            background-color: white;
+            list-style: none;
+            
+
+            .Callimg{
+                width: 25%;
+                height: 32px;
+            }
+        }
+    }
+}
